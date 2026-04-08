@@ -85,7 +85,7 @@ def home():
         </script>
     </body>
     </html>
-    """
+    """"
 
 @app.route("/reset", methods=["POST"])
 def reset():
