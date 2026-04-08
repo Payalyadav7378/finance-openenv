@@ -22,3 +22,11 @@ def step():
 @app.route("/state", methods=["GET"])
 def state():
     return jsonify({"state": env.state().tolist()})
+
+# ✅ REQUIRED main function
+def main():
+    app.run(host="0.0.0.0", port=7860)
+
+# ✅ REQUIRED entrypoint
+if __name__ == "__main__":
+    main()
