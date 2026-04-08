@@ -1,0 +1,17 @@
+name: finance_coach_env
+version: 1.0
+
+state_space:
+  - balance
+  - income
+  - expenses
+  - savings
+  - debt
+  - month
+
+action_space:
+  - do_nothing
+  - save
+  - invest
+  - pay_debt
+  - spend
